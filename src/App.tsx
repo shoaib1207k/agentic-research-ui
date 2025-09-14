@@ -1,5 +1,5 @@
 import './App.css'
-import ResearchTopicInput from './assets/components/ResearchTopicInput';
+import ResearchContainer from './assets/components/ResearchContainer';
 import TopBar from './assets/components/TopBar';
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <div>
         Hey there!
       </div>
-      <ResearchTopicInput />
+      <ResearchContainer />
     </>
   )
 }
